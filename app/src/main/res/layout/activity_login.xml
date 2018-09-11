@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="70dp"
+    tools:context="sokko.com.br.videaapp.LoginActivity"
+    android:background="@drawable/bg_videa">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_videa"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/loginText"
+        android:hint="Digite seu logo..."
+        android:layout_below = "@+id/imageView"
+        android:background="@drawable/logintext2"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/loginText2"
+        android:hint="Digite seu logo..."
+        android:layout_below = "@+id/loginText"
+        android:background="@drawable/logintext2"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginText2"
+        android:padding="12dp"
+        android:text="Logar"
+        android:textSize="18dp"
+        android:background="@drawable/logintext2"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callText1"
+        android:textAlignment="center"
+        android:layout_below="@+id/btnLogin"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não é cadastrado?"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar-se"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
