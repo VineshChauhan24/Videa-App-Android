@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VideaApp</string>
+    <string name="registrar"><a href="http://www.cleverfinger.com.au/user-guide/">Registrar-se</a></string>
 </resources>

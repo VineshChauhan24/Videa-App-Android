@@ -30,7 +30,8 @@
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
         android:layout_alignParentRight = "true"
-        android:layout_alignParentEnd = "true"/>
+        android:layout_alignParentEnd = "true"
+        android:alpha="0.4"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -44,7 +45,8 @@
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
         android:layout_alignParentRight = "true"
-        android:layout_alignParentEnd = "true"/>
+        android:layout_alignParentEnd = "true"
+        android:alpha="0.4"/>
 
     <Button
         android:id="@+id/btnLogin"
@@ -52,13 +54,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/loginText2"
         android:padding="12dp"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
         android:text="Logar"
         android:textSize="18dp"
-        android:background="@drawable/logintext2"
+        android:background="@drawable/btnstyle"
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
         android:layout_alignParentRight = "true"
-        android:layout_alignParentEnd = "true"/>
+        android:layout_alignParentEnd = "true" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -78,8 +82,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrar-se"
+            android:text="@string/registrar"
+            android:textColorLink="#ffffff"
             android:layout_marginLeft="5dp"
+            android:autoLink="web"
             android:textColor="#ffffff"
             android:textSize="18dp"/>
 
